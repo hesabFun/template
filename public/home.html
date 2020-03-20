@@ -6,25 +6,26 @@
     <link rel="stylesheet" href="/build/tailwind.css">
     <link rel="shortcut icon" href="/img/hesabfun-logo.svg" type="image/svg">
 </head>
-<body>
-<div class="grid grid-flow-col sm:grid-cols-1 sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
-    <div class="bg-gray-100 w-full h-screen grid grid-rows-2 lg:col-start-2">
+<body class="font-maisonneue bg-greyish-brown">
+<div class="grid grid-flow-col grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
+    <div class="bg-white w-full h-screen grid grid-rows-2 lg:col-start-2">
         <div class="flex flex-col">
             <img class="justify-center mt-12" src="/img/hesabfun-logo.svg" alt="hesabfun logo">
-            <p class="font-mono font-black text-center text-6xl text-gray-700 mt-8">Hesabfun</p>
-            <p class="font-mono text-center text-gray-500 -mt-3">open source financial platform</p>
-            <a href="/signup.html" class="mt-24 bg-yellow-500 w-64 p-4 self-center font-light text-1xl text-center tracking-wide">Create your free account</a>
-            <a href="" class="mt-4 border border-gray-500 w-64 p-4 self-center font-light text-1xl text-center tracking-wide">Sign up with Google</a>
-            <p class="mt-6 text-gray-600 text-center">Already have an account? <a class="font-black hover:text-yellow-600" href="/signin.html">Sign in</a></p>
+            <p class="font-bold text-center text-6xl text-greyish-brown mt-2">Hesabfun</p>
+            <p class="font-mono text-center tracking-tight font-book text-greyish -mt-3">open source financial platform</p>
+
+            <a href="/signup.html" class="mt-12 bg-butterscotch w-64 p-4 self-center text-1xl text-center tracking-tight">Create your free account</a>
+            <a href="" class="mt-4 bg-white border border-greyish w-64 p-3 self-center text-1xl tracking-tight font-bold relative flex flex"><img class="justify-center w-6 mr-4 ml-3" src="/img/btn_google_icon.svg" alt="hesabfun logo">Sign up with Google</a>
+            <p class="mt-6 tracking-tight font-bold text-greyish text-center">Already have an account? <a class="hover:text-butterscotch" href="/signin.html">Sign in</a></p>
         </div>
-        <div class="self-end mb-4 flex justify-center text-gray-600">
-            <a class="hover:text-yellow-600" href="" target="blank">Linkedin</a>
-            <a class="ml-8 hover:text-yellow-600" href="" target="blank">Twitter</a>
-            <a class="ml-8 hover:text-yellow-600" href="" target="blank">Github</a>
+        <div class="self-end mb-4 flex justify-center text-greyish tracking-tight font-bold text-brown-grey">
+            <a class="hover:text-butterscotch" href="" target="blank">Linkedin</a>
+            <a class="ml-8 hover:text-butterscotch" href="" target="blank">Twitter</a>
+            <a class="ml-8 hover:text-butterscotch" href="" target="blank">Github</a>
         </div>
     </div>
-    <div class="bg-gray-700 w-full h-screen text-gray-300 lg:col-start-1">
-        <div class="m-12">
+    <div class="w-full h-screen text-gray-300 lg:col-start-1">
+        <div class="m-6 sm:m-12 text-white-text sm:text-justify">
             <h1 class="text-2xl">What is Hesabfun?</h1>
             <p class="mt-2">Hesabfun is a base API accounting system, it's open source and free. you can use HesabFun site for free or run it under 5 minutes by docker on your company's server.</p>
             <h1 class="text-2xl mt-6">Why do we need a base API accounting system?</h1>
