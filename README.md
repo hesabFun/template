@@ -2,6 +2,10 @@
 
 ## After clone
 
+`npm install`
+
+And
+
 `npm install -g live-server`
 
 ## Run codes
