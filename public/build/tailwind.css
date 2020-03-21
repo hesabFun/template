@@ -13,7 +13,27 @@
 
   src: url('/src/fonts/MaisonNeue-Bold.woff2') format('woff2');
 
-  font-weight: 700;
+  font-weight: bold;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'maisonneue';
+
+  src: url('/src/fonts/MaisonNeue-BoldItalic.woff2') format('woff2');
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'avenir';
+
+  src: url('/src/fonts/Avenir-Regular.woff2') format('woff2');
+
+  font-weight: 500;
 
   font-style: normal;
 }
@@ -3958,7 +3978,7 @@ video {
 }
 
 .font-serif {
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "avenir", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .font-mono {
@@ -18046,7 +18066,7 @@ video {
   }
 
   .sm\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "avenir", Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .sm\:font-mono {
@@ -32135,7 +32155,7 @@ video {
   }
 
   .md\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "avenir", Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .md\:font-mono {
@@ -46224,7 +46244,7 @@ video {
   }
 
   .lg\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "avenir", Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .lg\:font-mono {
@@ -60313,7 +60333,7 @@ video {
   }
 
   .xl\:font-serif {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "avenir", Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .xl\:font-mono {
