@@ -16,6 +16,7 @@ module.exports = {
       },
       fontFamily: {
         maisonneue: ['"maisonneue"','Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+        serif: ['"avenir"','Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       }
     },
   },
