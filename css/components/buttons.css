@@ -1,0 +1,5 @@
+/* components/buttons.css */
+
+.btn-signup {
+    @apply mt-4 bg-white border border-greyish w-64 p-3 self-center tracking-tight font-bold relative flex flex;
+}
