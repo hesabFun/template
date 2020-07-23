@@ -28,9 +28,9 @@ jobs:
           command: |
             curl -fsSL get.docker.com -o get-docker.sh
             sh get-docker.sh
-            docker build -t hesabfun/ui:html_css .
+            docker build -t hesabfun/template:latest .
             docker login -u="$DOCKER_USER" -p="$DOCKER_PASS"
-            docker push hesabfun/ui:html_css
+            docker push hesabfun/template:latest
 
 # Check https://circleci.com/docs/2.0/workflows/ for more details
 workflows:
